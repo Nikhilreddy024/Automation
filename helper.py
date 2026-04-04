@@ -14,10 +14,10 @@ PRIMARY_API_KEY = os.environ.get(
 # - Set them via env vars GROQ_API_KEY_2..GROQ_API_KEY_5, or
 # - Replace the os.environ.get(...) calls with your literal keys.
 ADDITIONAL_API_KEYS = [
-    # os.environ.get("GROQ_API_KEY_2", "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").strip(),
-    # os.environ.get("GROQ_API_KEY_3", "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").strip(),
-    # os.environ.get("GROQ_API_KEY_4", "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").strip(),
-    # os.environ.get("GROQ_API_KEY_5", "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").strip(),
+    # os.environ.get("GROQ_API_KEY_2", "").strip(),
+    # os.environ.get("GROQ_API_KEY_3", "").strip(),
+    # os.environ.get("GROQ_API_KEY_4", "").strip(),
+    # os.environ.get("GROQ_API_KEY_5", "").strip(),
 ]
 
 API_KEYS = [k for k in [PRIMARY_API_KEY, *ADDITIONAL_API_KEYS] if k]
